@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8174FD37-89D2-457C-90C2-4ECA7E5492B0}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoliceServer</RootNamespace>
+    <AssemblyName>PoliceServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.EntityDataSource">
+      <HintPath>..\packages\Microsoft.AspNet.EntityDataSource.6.0.0\lib\net40\Microsoft.AspNet.EntityDataSource.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Cors">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.30506.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc.FixedDisplayModes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.FixedDisplayModes.1.0.0\lib\net40\Microsoft.Web.Mvc.FixedDisplayModes.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.0.0\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.10.2\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <Private>True</Private>
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>..\..\..\..\Desktop\net4.5\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.4.0.30506\lib\net40\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.30506.0\lib\net40\WebMatrix.WebData.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.1.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.30506.0\lib\net40\WebMatrix.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.1.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.1.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.1.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.30506.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\buildDate.aspx" />
+    <Content Include="Content\ClipOneCss\theme_NirooEntezami.css" />
+    <Content Include="Content\images\customs_Logo.png" />
+    <Content Include="Content\images\main.jpg" />
+    <Content Include="Content\images\NzLogo.png" />
+    <Content Include="Content\images\pelak.gif" />
+    <Content Include="Scripts\icheck.js" />
+    <Content Include="Scripts\others\onlynumber.js" />
+    <Content Include="Scripts\others\plaque.js" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="UserControl\Plaque.ascx" />
+    <Content Include="UserControl\uPermission.ascx" />
+    <Content Include="Views\Account\ManageAccess.aspx" />
+    <Content Include="Views\Account\ManagePassword.aspx" />
+    <Content Include="Views\BillOfLading\ShowBillOfLading.aspx" />
+    <Content Include="Views\ConfirmationReport\ByPasgah.aspx" />
+    <Content Include="Views\ConfirmationReport\ByUser.aspx" />
+    <Content Include="Views\Default\Index.aspx" />
+    <Content Include="Views\Default\MessagePage.aspx" />
+    <Content Include="Views\Patte\Index.aspx" />
+    <Content Include="Views\Patte\ShowPatte.aspx" />
+    <Content Include="Views\Patte\ShowUwPate.aspx" />
+    <Content Include="Views\Patte\ShwoAllPateBySerial.aspx" />
+    <Content Include="Views\Register\RegisterUser.aspx" />
+    <Content Include="Views\Register\RegisterPasgah.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="BuildDate.txt" />
+    <Content Include="BUILD_NUMBER.txt" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\ClipOneCss\jquery-ui-1.9.1-fa.css" />
+    <Content Include="Content\ClipOneCss\jquery-ui-1.9.1.custom.css" />
+    <Content Include="Content\ClipOneCss\main-responsive.css" />
+    <Content Include="Content\ClipOneCss\main.css" />
+    <Content Include="Content\ClipOneCss\rtl-version.css" />
+    <Content Include="Content\ClipOneCss\theme_black_and_white.css" />
+    <Content Include="Content\ClipOneCss\theme_dark.css" />
+    <Content Include="Content\ClipOneCss\theme_green.css" />
+    <Content Include="Content\ClipOneCss\theme_light.css" />
+    <Content Include="Content\ClipOneCss\theme_navy.css" />
+    <Content Include="Content\ClipOneFonts\fonts\clip-font.svg" />
+    <Content Include="Content\ClipOneFonts\style.css" />
+    <Content Include="Content\ClipOnePlugins\autosize\jquery.autosize.min.js" />
+    <Content Include="Content\ClipOnePlugins\blockUI\jquery.blockUI.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\img\bootstrap-colorpicker\alpha.png" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\img\bootstrap-colorpicker\hue.png" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\img\bootstrap-colorpicker\saturation.png" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-colorpicker\js\commits.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-daterangepicker\daterangepicker-bs3.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-daterangepicker\moment.min.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-fileupload\bootstrap-fileupload.min.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-fileupload\bootstrap-fileupload.min.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-hover-dropdown\bootstrap-hover-dropdown.min.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-modal\css\bootstrap-modal-bs3patch.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-modal\css\bootstrap-modal.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-modal\js\bootstrap-modal.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-modal\js\bootstrap-modalmanager.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-paginator\src\bootstrap-paginator.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-social-buttons\social-buttons-3.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-switch\static\js\bootstrap-switch.min.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-switch\static\stylesheets\bootstrap-switch.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-timepicker\css\bootstrap-timepicker.min.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap-timepicker\js\bootstrap-timepicker.min.js" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\ClipOnePlugins\ckeditor\adapters\jquery.js" />
+    <Content Include="Content\ClipOnePlugins\ckeditor\ckeditor.js" />
+    <Content Include="Content\ClipOnePlugins\ckeditor\contents.css" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\DT_bootstrap.css" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\images\sort_asc.png" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\images\sort_asc_disabled.png" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\images\sort_both.png" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\images\sort_desc.png" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\css\images\sort_desc_disabled.png" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\js\DT_bootstrap.js" />
+    <Content Include="Content\ClipOnePlugins\DataTables\media\js\jquery.dataTables.min.js" />
+    <Content Include="Content\ClipOnePlugins\datepicker\css\datepicker.css" />
+    <Content Include="Content\ClipOnePlugins\dropzone\downloads\css\dropzone.css" />
+    <Content Include="Content\ClipOnePlugins\dropzone\downloads\dropzone.min.js" />
+    <Content Include="Content\ClipOnePlugins\dropzone\downloads\images\spritemap%402x.png" />
+    <Content Include="Content\ClipOnePlugins\dropzone\downloads\images\spritemap.png" />
+    <Content Include="Content\ClipOnePlugins\dynatree\src\jquery.dynatree.js" />
+    <Content Include="Content\ClipOnePlugins\dynatree\src\skin-vista\icons.gif" />
+    <Content Include="Content\ClipOnePlugins\dynatree\src\skin-vista\loading.gif" />
+    <Content Include="Content\ClipOnePlugins\dynatree\src\skin-vista\ui.dynatree.css" />
+    <Content Include="Content\ClipOnePlugins\flot\jquery.flot.categories.js" />
+    <Content Include="Content\ClipOnePlugins\flot\jquery.flot.js" />
+    <Content Include="Content\ClipOnePlugins\flot\jquery.flot.pie.js" />
+    <Content Include="Content\ClipOnePlugins\flot\jquery.flot.resize.js" />
+    <Content Include="Content\ClipOnePlugins\flot\jquery.flot.resize.min.js" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="Content\ClipOnePlugins\fullcalendar\fullcalendar\fullcalendar.css" />
+    <Content Include="Content\ClipOnePlugins\fullcalendar\fullcalendar\fullcalendar.js" />
+    <Content Include="Content\ClipOnePlugins\gmaps\gmaps.js" />
+    <Content Include="Content\ClipOnePlugins\gritter\css\jquery.gritter.css" />
+    <Content Include="Content\ClipOnePlugins\gritter\images\gritter-light.png" />
+    <Content Include="Content\ClipOnePlugins\gritter\images\gritter.png" />
+    <Content Include="Content\ClipOnePlugins\gritter\images\ie-spacer.gif" />
+    <Content Include="Content\ClipOnePlugins\gritter\js\jquery.gritter.min.js" />
+    <Content Include="Content\ClipOnePlugins\iCheck\jquery.icheck.min.js" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\all.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\aero%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\aero.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\blue%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\blue.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\flat%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\flat.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\green%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\green.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\grey%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\grey.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\orange%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\orange.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\pink%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\pink.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\purple%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\purple.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\red%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\red.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\yellow%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\yellow.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\flat\_all.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\futurico\futurico%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\futurico\futurico.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\futurico\futurico.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\line\line%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\line\line.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\line\_all.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\aero%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\aero.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\blue%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\blue.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\green%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\green.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\grey%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\grey.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\minimal%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\minimal.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\orange%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\orange.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\pink%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\pink.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\purple%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\purple.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\red%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\red.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\yellow%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\yellow.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\minimal\_all.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\polaris\polaris%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\polaris\polaris.css" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\polaris\polaris.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\aero%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\aero.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\blue%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\blue.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\green%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\green.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\grey%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\grey.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\orange%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\orange.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\pink%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\pink.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\purple%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\purple.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\red%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\red.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\square%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\square.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\yellow%402x.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\yellow.png" />
+    <Content Include="Content\ClipOnePlugins\iCheck\skins\square\_all.css" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\css\Jcrop.gif" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\css\jquery.Jcrop.min.css" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\demos\demo_files\pool.jpg" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\demos\demo_files\sago.jpg" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\js\jquery.color.js" />
+    <Content Include="Content\ClipOnePlugins\Jcrop\js\jquery.Jcrop.min.js" />
+    <Content Include="Content\ClipOnePlugins\jQRangeSlider\css\classic-min.css" />
+    <Content Include="Content\ClipOnePlugins\jQRangeSlider\css\icons-classic\label.png" />
+    <Content Include="Content\ClipOnePlugins\jQRangeSlider\css\icons-classic\resultset_next.png" />
+    <Content Include="Content\ClipOnePlugins\jQRangeSlider\css\icons-classic\resultset_previous.png" />
+    <Content Include="Content\ClipOnePlugins\jQRangeSlider\jQAllRangeSliders-min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\css\jquery.fileupload-ui-noscript.css" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\css\jquery.fileupload-ui.css" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\img\loading.gif" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\img\progressbar.gif" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-audio.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-image.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-process.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-ui.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-validate.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload-video.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.fileupload.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\jquery.iframe-transport.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\main.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-File-Upload\js\vendor\jquery.ui.widget.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-inputlimiter\jquery.inputlimiter.1.3.1.min.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-Knob\js\jquery.knob.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-Smart-Wizard\js\jquery.smartWizard.js" />
+    <Content Include="Content\ClipOnePlugins\jQuery-Tags-Input\jquery.tagsinput.css" />
+    <Content Include="Content\ClipOnePlugins\jQuery-Tags-Input\jquery.tagsinput.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui-touch-punch\jquery.ui.touch-punch.min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\animated-overlay.gif" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\jquery-ui-1.10.1.custom.min.css" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-ui\jquery-ui-1.10.2.custom.min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery.maskedinput\src\jquery.maskedinput.js" />
+    <Content Include="Content\ClipOnePlugins\jquery.pulsate\jquery.pulsate.min.js" />
+    <Content Include="Content\ClipOnePlugins\jquery.sparkline\jquery.sparkline.js" />
+    <Content Include="Content\ClipOnePlugins\ladda-bootstrap\dist\ladda-themeless.min.css" />
+    <Content Include="Content\ClipOnePlugins\ladda-bootstrap\dist\ladda.min.js" />
+    <Content Include="Content\ClipOnePlugins\ladda-bootstrap\dist\spin.min.js" />
+    <Content Include="Content\ClipOnePlugins\nestable\jquery.nestable.js" />
+    <Content Include="Content\ClipOnePlugins\perfect-scrollbar\src\jquery.mousewheel.js" />
+    <Content Include="Content\ClipOnePlugins\perfect-scrollbar\src\perfect-scrollbar.css" />
+    <Content Include="Content\ClipOnePlugins\perfect-scrollbar\src\perfect-scrollbar.js" />
+    <Content Include="Content\ClipOnePlugins\rainyday\rainyday.js" />
+    <Content Include="Content\ClipOnePlugins\select2\select2-spinner.gif" />
+    <Content Include="Content\ClipOnePlugins\select2\select2.css" />
+    <Content Include="Content\ClipOnePlugins\select2\select2.min.js" />
+    <Content Include="Content\ClipOnePlugins\select2\select2.png" />
+    <Content Include="Content\ClipOnePlugins\select2\select2x2.png" />
+    <Content Include="Content\ClipOnePlugins\summernote\build\summernote.css" />
+    <Content Include="Content\ClipOnePlugins\summernote\build\summernote.min.js" />
+    <Content Include="Content\images\bg.png" />
+    <Content Include="Content\images\check.png" />
+    <Content Include="Content\images\delete.png" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="cert.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Content\ClipOnePlugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\ClipOnePlugins\bootstrap\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\font\fontawesome-webfontd41d.eot" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\font\fontawesome-webfontf77b.eot" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\font\fontawesome-webfontf77b.ttf" />
+    <Content Include="Content\ClipOnePlugins\font-awesome\font\fontawesome-webfontf77b.woff" />
+    <Content Include="PoliceSite.Master" />
+    <Content Include="Content\ClipOneFonts\fonts\clip-font.eot%40" />
+    <Content Include="Content\ClipOneFonts\fonts\clip-font.woff" />
+    <Content Include="Content\ClipOneFonts\fonts\Descr.WD3" />
+    <None Include="Properties\PublishProfiles\PoliceServerDeployment.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ClipOneJs\charts.js" />
+    <Content Include="Scripts\ClipOneJs\form-calendar.js" />
+    <Content Include="Scripts\ClipOneJs\form-dropzone.js" />
+    <Content Include="Scripts\ClipOneJs\form-elements.js" />
+    <Content Include="Scripts\ClipOneJs\form-image-cropping.js" />
+    <Content Include="Scripts\ClipOneJs\form-validation.js" />
+    <Content Include="Scripts\ClipOneJs\form-wizard.js" />
+    <Content Include="Scripts\ClipOneJs\index.js" />
+    <Content Include="Scripts\ClipOneJs\jquery-1.8.1.js" />
+    <Content Include="Scripts\ClipOneJs\jquery-ui-1.9.1.custom.js" />
+    <Content Include="Scripts\ClipOneJs\login.js" />
+    <Content Include="Scripts\ClipOneJs\main.js" />
+    <Content Include="Scripts\ClipOneJs\maps.js" />
+    <Content Include="Scripts\ClipOneJs\table-data.js" />
+    <Content Include="Scripts\ClipOneJs\ui-buttons.js" />
+    <Content Include="Scripts\ClipOneJs\ui-elements.js" />
+    <Content Include="Scripts\ClipOneJs\ui-modals.js" />
+    <Content Include="Scripts\ClipOneJs\ui-nestable.js" />
+    <Content Include="Scripts\ClipOneJs\ui-sliders.js" />
+    <Content Include="Scripts\ClipOneJs\ui-treeview.js" />
+    <Content Include="Scripts\ClipOneJs\utility-coming-soon.js" />
+    <Content Include="Scripts\ClipOneJs\utility-error404.js" />
+    <Content Include="Scripts\ClipOneJs\webwidget_menu_dropdown.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\PatteInfo\test.aspx" />
+    <Content Include="Views\Service\Index.aspx" />
+    <Content Include="Views\Service\PatteService.aspx" />
+    <Content Include="Views\ShowParvane\Index.aspx" />
+    <Content Include="Views\ShowParvane\ShowResult.aspx" />
+    <Content Include="Views\ValueDeclearation\SearchValueDeclearation.aspx" />
+    <Content Include="Views\ValueDeclearation\ShowValueDeclearation.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessControl\Menu.cs" />
+    <Compile Include="AccessControl\Role.cs" />
+    <Compile Include="AccessControl\RoleManager.cs" />
+    <Compile Include="Account\buildDate.aspx.cs">
+      <DependentUpon>buildDate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\buildDate.aspx.designer.cs">
+      <DependentUpon>buildDate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Attribute\MultipleButtonAttribute.cs" />
+    <Compile Include="Attribute\PoliceAuthorizeAttribute.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BillOfLadingController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\RestService\TicketGrantingController.cs" />
+    <Compile Include="Enums\CustomsCode.cs" />
+    <Compile Include="Migrations\201807230721437_init.cs" />
+    <Compile Include="Migrations\201807230721437_init.Designer.cs">
+      <DependentUpon>201807230721437_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808271548330_rolemanagment.cs" />
+    <Compile Include="Migrations\201808271548330_rolemanagment.Designer.cs">
+      <DependentUpon>201808271548330_rolemanagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808280952492_user_change_OrganizationCode.cs" />
+    <Compile Include="Migrations\201808280952492_user_change_OrganizationCode.Designer.cs">
+      <DependentUpon>201808280952492_user_change_OrganizationCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808281201165_ticket.cs" />
+    <Compile Include="Migrations\201808281201165_ticket.Designer.cs">
+      <DependentUpon>201808281201165_ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LogEvent.cs" />
+    <Compile Include="Models\Patient.cs" />
+    <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Repository\TicketRepository.cs" />
+    <Compile Include="UserControl\Plaque.ascx.cs">
+      <DependentUpon>Plaque.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\Plaque.ascx.designer.cs">
+      <DependentUpon>Plaque.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\uPermission.ascx.cs">
+      <DependentUpon>uPermission.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\uPermission.ascx.designer.cs">
+      <DependentUpon>uPermission.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Annotation\FarsiPage.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
+    <Compile Include="Enums\Ostan.cs" />
+    <Compile Include="Logics\UserRegistration.cs" />
+    <Compile Include="Models\Responsibility.cs" />
+    <Compile Include="Shared\JsonResult.cs" />
+    <Compile Include="Utilities\BarcodeWriter.cs" />
+    <Compile Include="Utilities\CommonUtilities.cs" />
+    <Compile Include="Exceptions\EntityNotFoundException.cs" />
+    <Compile Include="Exceptions\UserInterfaceException.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Messages\ExceptionMessage.cs" />
+    <Compile Include="Messages\LogMessage.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AbstractEntity.cs" />
+    <Compile Include="Models\PoliceContext.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="PoliceSite.Master.cs">
+      <DependentUpon>PoliceSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PoliceSite.Master.designer.cs">
+      <DependentUpon>PoliceSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AbstractRepository.cs" />
+    <Compile Include="Shared\JsonResultWithObject.cs" />
+    <Compile Include="Startup.cs" />
+    <Compile Include="Utilities\Configuration.cs" />
+    <Compile Include="Utilities\ContextCreator.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Enums\EnumHelper.cs" />
+    <Compile Include="Enums\MilitaryRank.cs" />
+    <Compile Include="Utilities\HexEncoding.cs" />
+    <Compile Include="Utilities\HexManager.cs" />
+    <Compile Include="Utilities\SessionManager.cs" />
+    <Compile Include="Utilities\SimplePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PatteInfo\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\PatteInfo\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807230721437_init.resx">
+      <DependentUpon>201807230721437_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808271548330_rolemanagment.resx">
+      <DependentUpon>201808271548330_rolemanagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808280952492_user_change_OrganizationCode.resx">
+      <DependentUpon>201808280952492_user_change_OrganizationCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808281201165_ticket.resx">
+      <DependentUpon>201808281201165_ticket.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1089</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:37407/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

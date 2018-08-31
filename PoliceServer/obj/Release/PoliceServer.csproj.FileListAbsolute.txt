@@ -1,0 +1,459 @@
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\bitaServicebusCert.cer
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\cert.pfx
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\PoliceServer.dll.config
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\PoliceServer.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\PoliceServer.pdb
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Antlr3.Runtime.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\EntityFramework.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\EntityFramework.SqlServer.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Newtonsoft.Json.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Owin.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Net.Http.Formatting.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Helpers.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Http.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Http.WebHost.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Mvc.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Optimization.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Providers.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Razor.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\WebGrease.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Helpers.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Mvc.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Razor.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Optimization.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Antlr3.Runtime.pdb
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Newtonsoft.Json.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Net.Http.Formatting.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Http.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\System.Web.Http.WebHost.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\EntityFramework.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\EntityFramework.SqlServer.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\obj\Release\PoliceServer.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\obj\Release\PoliceServer.pdb
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\obj\Release\PoliceServer.csprojResolveAssemblyReference.cache
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\log4net.dll
+C:\Users\BARCA\Documents\Visual Studio 2013\Projects\PoliceServer\PoliceServer\bin\log4net.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\bitaServicebusCert.cer
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\cert.pfx
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.dll.config
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Antlr3.Runtime.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.SqlServer.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\log4net.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Newtonsoft.Json.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Net.Http.Formatting.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Cors.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Helpers.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.Cors.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.WebHost.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Mvc.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Optimization.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Providers.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\WebGrease.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\log4net.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Helpers.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.Cors.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Mvc.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Optimization.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Antlr3.Runtime.pdb
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Newtonsoft.Json.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Net.Http.Formatting.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.WebHost.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.SqlServer.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\bin\ko\System.Web.Http.Cors.resources.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.csprojResolveAssemblyReference.cache
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.firstStatet.resources
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Responsibility_added.resources
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_Rank_added.resources
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Ostan_added_to_Pasgah.resources
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.csproj.GenerateResource.Cache
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.csprojResolveAssemblyReference.cache
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.Migrations.firstStatet.resources
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.Migrations.Responsibility_added.resources
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_Rank_added.resources
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.Migrations.Ostan_added_to_Pasgah.resources
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.csproj.GenerateResource.Cache
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\obj\Release\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\bitaServicebusCert.cer
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\cert.pfx
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\PoliceServer.dll.config
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Antlr3.Runtime.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\EntityFramework.SqlServer.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\log4net.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Newtonsoft.Json.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Net.Http.Formatting.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Cors.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Helpers.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.Cors.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.WebHost.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Mvc.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Optimization.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Providers.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\WebGrease.dll
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\log4net.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Helpers.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.Cors.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Mvc.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Optimization.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Antlr3.Runtime.pdb
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Newtonsoft.Json.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Net.Http.Formatting.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\System.Web.Http.WebHost.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\EntityFramework.SqlServer.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BARCA\Source\Repos\policeserver2\PoliceServer\bin\ko\System.Web.Http.Cors.resources.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\bitaServicebusCert.cer
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\cert.pfx
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\PoliceServer.dll.config
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Antlr3.Runtime.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.Core.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\EntityFramework.SqlServer.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\log4net.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Newtonsoft.Json.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Owin.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Net.Http.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Net.Http.Formatting.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Cors.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Helpers.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.OData.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.WebHost.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Mvc.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Optimization.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Providers.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\WebGrease.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\WebMatrix.Data.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\WebMatrix.WebData.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\log4net.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Helpers.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Mvc.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Antlr3.Runtime.pdb
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Newtonsoft.Json.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Net.Http.Formatting.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.WebHost.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\System.Web.Http.OData.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\WebMatrix.WebData.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.Core.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\WebMatrix.Data.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\EntityFramework.SqlServer.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.firstStatet.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Responsibility_added.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_Rank_added.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Ostan_added_to_Pasgah.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_model_BossNationalCode_insteadOf_Username.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Patte_Container_Commodity_Driver_TablesAdded.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Add_ConfirmedPatte_Table.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Add_PatteSerial_Column_to_ComfiredPatte.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.rename_Name_To_PasgahId_in_PasgahTable.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.Delete_UserName_from_UserTABLE.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.User_rank_deleted_and_NzCoding_added.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.uwpateSave.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.commodityQyantity_To_double.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.foreignPlaqu_Added.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.csproj.GenerateResource.Cache
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.dll
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.pdb
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.csprojResolveAssemblyReference.cache
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.stockInformationAddedToPate.resources
+C:\Users\BARCA\Source\Repos\policeserver3\PoliceServer\obj\Release\PoliceServer.Migrations.add_ipAddress_To_ConfirmedPate_Model.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\bitaServicebusCert.cer
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\cert.pfx
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.dll.config
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\PoliceServer.pdb
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Antlr3.Runtime.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.Core.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.SqlServer.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\log4net.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.EntityDataSource.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Newtonsoft.Json.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Owin.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Net.Http.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Net.Http.Formatting.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Cors.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Helpers.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.OData.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.WebHost.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Mvc.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Optimization.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Providers.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Razor.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\WebGrease.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\WebMatrix.WebData.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\log4net.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Helpers.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Mvc.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Razor.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Antlr3.Runtime.pdb
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Newtonsoft.Json.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Net.Http.Formatting.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.WebHost.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\System.Web.Http.OData.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\WebMatrix.WebData.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.Core.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\EntityFramework.SqlServer.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.csprojResolveAssemblyReference.cache
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.firstStatet.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Responsibility_added.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_Rank_added.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Ostan_added_to_Pasgah.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Pasgah_model_BossNationalCode_insteadOf_Username.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Patte_Container_Commodity_Driver_TablesAdded.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Add_ConfirmedPatte_Table.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Add_PatteSerial_Column_to_ComfiredPatte.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.rename_Name_To_PasgahId_in_PasgahTable.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.Delete_UserName_from_UserTABLE.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.User_rank_deleted_and_NzCoding_added.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.uwpateSave.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.commodityQyantity_To_double.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.foreignPlaqu_Added.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.stockInformationAddedToPate.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.Migrations.add_ipAddress_To_ConfirmedPate_Model.resources
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.csproj.GenerateResource.Cache
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.dll
+C:\Users\Alireza\Source\Repos\policeserver\PoliceServer\obj\Release\PoliceServer.pdb

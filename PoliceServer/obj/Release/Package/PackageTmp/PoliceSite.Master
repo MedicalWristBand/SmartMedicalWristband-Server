@@ -1,0 +1,372 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PoliceSite.master.cs" Inherits="PoliceServer.PoliceSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <!-- start: META -->
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <link rel="stylesheet" href="Content/ClipOnePlugins/bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="Content/ClipOnePlugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/ClipOneFonts/style.css">
+    <link rel="stylesheet" href="Content/ClipOneCss/main.css">
+    <link rel="stylesheet" href="Content/ClipOneCss/main-responsive.css">
+    <link rel="stylesheet" href="Content/ClipOnePlugins/iCheck/skins/all.css">
+    <link rel="stylesheet" href="Content/ClipOnePlugins/perfect-scrollbar/src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="Content/ClipOneCss/theme_navy.css" id="skin_color">
+    <!--[if IE 7]>
+		<link rel="stylesheet" href="Content/ClipOnePlugins/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+    <!-- end: MAIN CSS -->
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <link rel="stylesheet" href="Content/ClipOnePlugins/fullcalendar/fullcalendar/fullcalendar.css">
+    <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <link rel="shortcut icon" href="favicon.ico" />
+<%--    <link rel="shortcut icon" href="~/Content/images/NzLogo.png"/>--%>
+
+    <link rel="stylesheet" type="text/css" href="Content/ClipOneCss/jquery-ui-1.9.1.custom.css" />
+    <link rel="stylesheet" type="text/css" href="Content/ClipOneCss/jquery-ui-1.9.1-fa.css" />
+    <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/ClipOneJs/jquery-1.8.1.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/ClipOneJs/webwidget_menu_dropdown.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/ClipOneJs/jquery-ui-1.9.1.custom.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/bootstrap.js") %>"></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Scripts/iCheck.js") %>'></script>
+
+	<link rel="stylesheet" type="text/css" href="Content/ClipOneCss/rtl-version.css" />
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('input:not(#chkStrange)').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+                increaseArea: '20%' // optional
+            });
+            $('.old-checkbox').find('input[type=checkbox]').iCheck('destroy');
+            $(document).tooltip();
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="ScriptCotent" runat="server">
+    </asp:ContentPlaceHolder>
+	
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+<body class="rtl">
+    <form runat="server">
+        <asp:Panel class="col-md-12" Style="font-family: B Nazanin,B Lotus,Arial; font-size: 13pt" ID="pnlContent" runat="server" align="right">
+            <asp:Panel ID="Header" CssClass="header col-md-12" ClientIDMode="Static" runat="server">
+                <div class="title">
+                    <div class="navbar navbar-inverse navbar-fixed-top">
+                        <!-- start: TOP NAVIGATION CONTAINER -->
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                                    <span class="clip-list-2"></span>
+                                </button>
+                                <a class="navbar-brand">
+                                    <i class="clip-home"></i>
+                                    سامانه استعلام اطلاعات گمرک
+                                </a>
+                            </div>
+                            <div class="navbar-tools">
+                                <!-- start: TOP NAVIGATION MENU -->
+                                <ul class="nav navbar-right">
+                                    <!-- start: USER DROPDOWN -->
+                                    <li class="dropdown current-user">
+                                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
+                                            <span class="username">
+                                                <%=Session["UserSSN"] != null ? PoliceServer.AccessControl.RoleManager.GetInstance().GetUser(Session["UserSSN"].ToString()).Family + " به مرکز " + " خوش آمدید " : ""%>
+                                            </span>
+                                            <i class="clip-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="clip-question"></i>
+                                                    &nbsp;سوالات متداول (به زودی)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<%= ResolveUrl("~/Account/ManagePassword") %>">
+                                                    <i class="clip-key-3"></i>
+                                                    &nbsp;تغییر رمز عبور   
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<%= ResolveUrl("~/Default/LogOut") %>">
+                                                    <i class="clip-key-3"></i>
+                                                    خروج 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- end: USER DROPDOWN -->
+                                </ul>
+                                <!-- end: TOP NAVIGATION MENU -->
+                            </div>
+                        </div>
+                        <!-- end: TOP NAVIGATION CONTAINER -->
+                    </div>
+                    <br />
+                </div>
+            </asp:Panel>
+
+            <!-- start: MAIN CONTAINER -->
+            <div id="pnlMainContent" class="main-container">
+                <div class="navbar-content">
+                    <!-- start: SIDEBAR -->
+                    <div class="main-navigation navbar-collapse collapse" runat="server">
+                        <div class="navigation-toggler">
+                            <i class="clip-chevron-left"></i>
+                        </div>
+                        <!-- start: MAIN NAVIGATION MENU -->
+                        <%--                        <% --%>
+                        <%--                            List<Warehouse.Facade.Menu> menus = Warehouse.Utilities.RoleManager.GetInstance().GetMenu(Warehouse.Utilities.CommonUtilities.GetUser(true));--%>
+                        <%--                            if (menus.Count != 0)--%>
+                        <%--                            {--%>
+                        <%--                        %>--%>
+                        <ul class="main-navigation-menu">
+                            <li class="">
+                                <a href="<%=ResolveUrl("~/Default/Index") %>" style="font-size: larger">
+                                    <i class="clip-home-2"></i>
+                                    <span class="title">صفحه نخست </span>
+                                    <span class="ui-accordion-header"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: larger">
+                                    <i class="clip-truck"></i>
+                                    <span class="title">دریافت اطلاعات</span>
+                                    <i class="icon-arrow"></i>
+                                    <span class="ui-accordion-header"></span>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/Patte/Index") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            پته
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/ShowParvane/Index") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            پروانه
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/ValueDeclearation/SearchValueDeclearation") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            اظهارنامه ارزش گمرکی
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/Patte/ShwoAllPateBySerial") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            حامل های یک پروانه
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: larger">
+                                    <i class="clip-user-6"></i>
+                                    <span class="title">مدیریت کاربران</span>
+                                    <i class="icon-arrow"></i>
+                                    <span class="ui-accordion-header"></span>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/Register/RegisterPasgah") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            ایجاد مرکز استعلام
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/Register/RegisterUser") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            ایجاد کاربر جدید
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/Account/ManageAccess") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            مدیریت دسترسی کاربران
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: larger">
+                                    <i class="clip-file-2"></i>
+                                    <span class="title">گزارش عملکرد</span>
+                                    <i class="icon-arrow"></i>
+                                    <span class="ui-accordion-header"></span>
+                                </a>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/ConfirmationReport/ByPasgah") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            گزارش عملکرد یک مرکز
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-menu" style="display: none;">
+                                    <li style="list-style: none">
+                                        <a href="<%=ResolveUrl("~/ConfirmationReport/ByUser") %>" style="font-size: medium">
+                                            <i class="clip-circle-small"></i>
+                                            گزارش عملکرد یک فرد
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- end: MAIN NAVIGATION MENU -->
+
+                    </div>
+                    <!-- end: SIDEBAR -->
+                </div>
+                <!-- start: PAGE -->
+                <div class="main-content">
+                    <div class="container">
+                        <!-- start: PAGE HEADER -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <!-- start: PAGE TITLE & BREADCRUMB -->
+                                <ol class="breadcrumb">
+                                    <li>
+                                        <i class="clip-home-3"></i>
+                                        <a href="<%=ResolveUrl("~/Default/Index") %>">خانه</a>
+                                    </li>
+                                    <li class="active"><%= Page.Title %></li>
+                                </ol>
+                                <div class="page-header" style="font-family: B nazanin">
+                                    <h1><%=Page.Title %> </h1>
+                                </div>
+                                <!-- end: PAGE TITLE & BREADCRUMB -->
+                            </div>
+                        </div>
+                        <!-- end: PAGE HEADER -->
+
+                        <!-- start: PAGE CONTENT -->
+                        <div class="row col-md-12">
+                            <div>
+                                <asp:Panel ID="pnlSoftException" Visible="False" CssClass="ui-state-highlight ui-corner-all" Style="padding: 10px; text-align: justify"
+                                    runat="server" ClientIDMode="Static">
+                                    <asp:Image ID="imgSuccess" ImageUrl="~/Styles/Images/check.png" Style="vertical-align: middle; width: 20px" runat="server" Visible="False" />
+                                    <asp:Image ID="imgFail" ImageUrl="~/Styles/Images/delete.png" Style="vertical-align: middle; width: 20px" runat="server" Visible="False" />
+                                    <asp:Label ID="lblSoftExceptionMessage" runat="server">
+                                    </asp:Label>
+                                </asp:Panel>
+                                <br />
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                            </div>
+                        </div>
+
+                        <!-- end: PAGE CONTENT-->
+
+                    </div>
+
+
+
+                </div>
+                <!-- end: PAGE -->
+            </div>
+            <!-- end: MAIN CONTAINER -->
+
+
+            <!-- start: FOOTER -->
+            <div class="footer clearfix" style="font-family: B nazanin; font-size: medium" runat="server">
+                کليه حقوق مادي و معنوي اين سامانه متعلق به پژوهشکده سامانه هاي هوشمند کاربردي دانشگاه
+                    تهران مي باشد
+               
+               
+
+                <br />
+                نسخه ی
+               
+               
+
+                <asp:Label ID="lblTechnichalVersion" runat="server" Text="Label"></asp:Label>
+                &nbsp;
+                -
+                &nbsp;
+                کامپایل شده در
+               
+               
+
+               
+
+
+
+                <asp:Label ID="lblBuildDate" runat="server"></asp:Label>
+
+                <div class="footer-items">
+                    <span class="go-top"><i class="clip-chevron-up"></i></span>
+                </div>
+            </div>
+            <!-- end: FOOTER -->
+            <!-- start: MAIN JAVASCRIPTS -->
+
+            <!--[if lt IE 9]>
+		        <script src="~/newStyle/plugins/respond.min.js"></script>
+		        <script src="~/newStyle/plugins/excanvas.min.js"></script>
+		        <script type="text/javascript" src="~/newStyle/plugins/jQuery-lib/1.10.2/jquery.min.js"></script>
+		    <![endif]-->
+
+        </asp:Panel>
+
+        <asp:ContentPlaceHolder ID="LoginContent" runat="server"></asp:ContentPlaceHolder>
+
+
+
+
+    </form>
+    <%--    <script src="~/newStyle/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>--%>
+    <%--    <script src="~/newStyle/plugins/bootstrap/js/bootstrap.min.js"></script>--%>
+    <script src="<%= ResolveUrl("~/Content/ClipOnePlugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js") %>" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~/Content/ClipOnePlugins/blockUI/jquery.blockUI.js") %>" type="text/javascript"></script>
+    <%--    <script src="~/newStyle/plugins/iCheck/jquery.icheck.min.js"></script>--%>
+    <script src="<%= ResolveUrl("~/Content/ClipOnePlugins/perfect-scrollbar/src/jquery.mousewheel.js") %>" type="text/javascript"></script>
+    <script src="<%= ResolveUrl("~/Content/ClipOnePlugins/perfect-scrollbar/src/perfect-scrollbar.js") %>" type="text/javascript"></script>
+    <%--    <script src="~/newStyle/plugins/less/less-1.5.0.min.js"></script>--%>
+    <%--    <script src="~/newStyle/plugins/jquery-cookie/jquery.cookie.js"></script>--%>
+    <%--    <script src="~/newStyle/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>--%>
+    <script src="<%= ResolveUrl("~/Scripts/ClipOneJs/main.js") %>" type="text/javascript"></script>
+    <!-- end: MAIN JAVASCRIPTS -->
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            Main.init();
+            //            Index.init();
+        });
+    </script>
+
+    <!-- end: BODY -->
+</body>
+</html>

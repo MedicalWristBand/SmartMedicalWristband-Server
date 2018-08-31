@@ -1,0 +1,109 @@
+﻿/*********** This File manage jquery ui theme for farsi **************/
+
+
+/**************************** autocomplete ****************************/
+.ui-autocomplete
+{
+    max-height: 200px;
+    max-width: 900px;
+    overflow: auto;
+    font-size: 14px;
+}
+/* IE 6 doesn't support max-height
+     * we use height instead, but this forces the menu to always be this tall
+     */
+* html .ui-autocomplete
+{
+    height: 100px;
+}
+
+span.name
+{
+    direction: ltr;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 85%;
+    border: solid cadetblue 1px;
+}
+span.HSCode
+{
+    direction: ltr;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 14%;
+    border: solid cadetblue 1px;
+}
+
+.ui-menu .ui-menu-item a.nospace
+{
+    padding: 0;
+}
+
+.ui-autocomplete-loading
+{
+    background: white url(loading16x16.gif) left center no-repeat;
+}
+
+/**************************** autocomplete ****************************/
+
+/**************************** table with multi selection row ****************************/
+
+.ui-widget
+{
+    font-size: inherit;
+}
+.ui-selecting
+{
+    background: #FECA40;
+    border: outset;
+}
+.ui-selected
+{
+    background: #F39814;
+    color: white;
+}
+#multiSelection, #selectedTaalis
+{
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    /*border-collapse: collapse;*/
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+}
+.ui-tooltip 
+{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+}
+/**************************** table with multi selection row ****************************/
+input
+{
+    font-family: inherit;
+    font-size: inherit;
+}
+/**************************** stolen from twitter bootstrap ****************************/
+.alert {
+    padding: 8px 14px 8px 35px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #f1ceab;
+    border: 1px solid #efb99e;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #669533;
+    background-color: #d5ecbf;
+    border-color: #d2e6ab;
+}
+/***************************************************************************************/
+.page-break-after {
+    page-break-before: always;
+}
+/***************************************************************************************/

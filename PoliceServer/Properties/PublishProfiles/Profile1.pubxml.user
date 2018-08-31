@@ -1,0 +1,1234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\WristBandServer</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/buildDate.aspx">
+      <publishTime>03/24/2017 00:54:38</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>03/24/2017 00:54:38</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/bitaServicebusCert.cer">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="bin/cert.pfx">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>03/24/2017 00:54:32</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>03/24/2017 00:54:33</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/24/2017 00:54:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.EntityDataSource.dll">
+      <publishTime>03/24/2017 00:54:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.WebPages.OAuth.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>03/24/2017 00:54:37</publishTime>
+    </File>
+    <File Include="bin/PoliceServer.dll">
+      <publishTime>08/29/2018 01:38:54</publishTime>
+    </File>
+    <File Include="bin/PoliceServer.pdb">
+      <publishTime>08/29/2018 01:38:54</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>09/26/2012 02:16:08</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>03/24/2017 00:54:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/24/2017 00:54:35</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/24/2017 00:54:38</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.Data.dll">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="bin/WebMatrix.WebData.dll">
+      <publishTime>03/24/2017 00:54:36</publishTime>
+    </File>
+    <File Include="bin/zxing.dll">
+      <publishTime>04/14/2018 23:09:13</publishTime>
+    </File>
+    <File Include="bin/zxing.pdb">
+      <publishTime>04/14/2018 23:09:13</publishTime>
+    </File>
+    <File Include="BuildDate.txt">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="BUILD_NUMBER.txt">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/jquery-ui-1.9.1-fa.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/jquery-ui-1.9.1.custom.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/main-responsive.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/main.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/rtl-version.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_black_and_white.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_dark.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_green.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_light.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_navy.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneCss/theme_NirooEntezami.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneFonts/fonts/clip-font.eot%40">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneFonts/fonts/clip-font.svg">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneFonts/fonts/clip-font.woff">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneFonts/fonts/Descr.WD3">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOneFonts/style.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/autosize/jquery.autosize.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/blockUI/jquery.blockUI.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-colorpicker/js/commits.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-daterangepicker/daterangepicker-bs3.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-daterangepicker/daterangepicker.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-daterangepicker/moment.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-fileupload/bootstrap-fileupload.min.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-fileupload/bootstrap-fileupload.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-modal/css/bootstrap-modal-bs3patch.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-modal/css/bootstrap-modal.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-modal/js/bootstrap-modal.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-modal/js/bootstrap-modalmanager.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-paginator/src/bootstrap-paginator.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-social-buttons/social-buttons-3.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-switch/static/js/bootstrap-switch.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-switch/static/stylesheets/bootstrap-switch.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/css/bootstrap.min.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/fonts/glyphicons-halflings-regulard41d.eot">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/bootstrap/js/bootstrap.min.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ckeditor/adapters/jquery.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ckeditor/ckeditor.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ckeditor/contents.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/DT_bootstrap.css">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/images/sort_asc.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/images/sort_asc_disabled.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/images/sort_both.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/images/sort_desc.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/css/images/sort_desc_disabled.png">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/js/DT_bootstrap.js">
+      <publishTime>03/24/2017 00:54:40</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/DataTables/media/js/jquery.dataTables.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/datepicker/css/datepicker.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dropzone/downloads/css/dropzone.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dropzone/downloads/dropzone.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dropzone/downloads/images/spritemap%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dropzone/downloads/images/spritemap.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dynatree/src/jquery.dynatree.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dynatree/src/skin-vista/icons.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dynatree/src/skin-vista/loading.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/dynatree/src/skin-vista/ui.dynatree.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/flot/jquery.flot.categories.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/flot/jquery.flot.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/flot/jquery.flot.pie.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/flot/jquery.flot.resize.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/flot/jquery.flot.resize.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/css/font-awesome.min.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/font/fontawesome-webfont.svg">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/font/fontawesome-webfontd41d.eot">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/font/fontawesome-webfontf77b.eot">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/font/fontawesome-webfontf77b.ttf">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/font-awesome/font/fontawesome-webfontf77b.woff">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/fullcalendar/fullcalendar/fullcalendar.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/fullcalendar/fullcalendar/fullcalendar.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gmaps/gmaps.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gritter/css/jquery.gritter.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gritter/images/gritter-light.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gritter/images/gritter.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gritter/images/ie-spacer.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/gritter/js/jquery.gritter.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/jquery.icheck.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/all.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/aero%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/aero.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/blue%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/blue.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/flat%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/flat.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/green%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/green.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/grey%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/grey.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/orange%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/orange.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/pink%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/pink.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/purple%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/purple.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/red%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/red.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/yellow%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/yellow.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/flat/_all.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/futurico/futurico%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/futurico/futurico.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/futurico/futurico.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/line/line%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/line/line.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/line/_all.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/aero%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/aero.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/blue%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/blue.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/green%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/green.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/grey%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/grey.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/minimal%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/minimal.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/orange%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/orange.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/pink%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/pink.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/purple%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/purple.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/red%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/red.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/yellow%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/yellow.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/minimal/_all.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/polaris/polaris%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/polaris/polaris.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/polaris/polaris.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/aero%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/aero.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/blue%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/blue.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/green%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/green.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/grey%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/grey.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/orange%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/orange.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/pink%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/pink.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/purple%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/purple.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/red%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/red.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/square%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/square.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/yellow%402x.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/yellow.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/iCheck/skins/square/_all.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/css/Jcrop.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/css/jquery.Jcrop.min.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/demos/demo_files/pool.jpg">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/demos/demo_files/sago.jpg">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/js/jquery.color.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/Jcrop/js/jquery.Jcrop.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQRangeSlider/css/classic-min.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQRangeSlider/css/icons-classic/label.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQRangeSlider/css/icons-classic/resultset_next.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQRangeSlider/css/icons-classic/resultset_previous.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQRangeSlider/jQAllRangeSliders-min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-easy-pie-chart/jquery.easy-pie-chart.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/css/jquery.fileupload-ui-noscript.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/css/jquery.fileupload-ui.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/img/loading.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/img/progressbar.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-audio.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-image.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-process.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-ui.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-validate.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload-video.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.fileupload.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/jquery.iframe-transport.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/main.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-File-Upload/js/vendor/jquery.ui.widget.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-Knob/js/jquery.knob.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-Smart-Wizard/js/jquery.smartWizard.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-Tags-Input/jquery.tagsinput.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jQuery-Tags-Input/jquery.tagsinput.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/animated-overlay.gif">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-icons_222222_256x240.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-icons_228ef1_256x240.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/jquery-ui-1.10.1.custom.min.css">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/jquery-ui-1.10.1.custom.min.js">
+      <publishTime>03/24/2017 00:54:41</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-ui/jquery-ui-1.10.2.custom.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery.maskedinput/src/jquery.maskedinput.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery.pulsate/jquery.pulsate.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/jquery.sparkline/jquery.sparkline.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ladda-bootstrap/dist/ladda-themeless.min.css">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ladda-bootstrap/dist/ladda.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/ladda-bootstrap/dist/spin.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/nestable/jquery.nestable.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/perfect-scrollbar/src/jquery.mousewheel.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/perfect-scrollbar/src/perfect-scrollbar.css">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/perfect-scrollbar/src/perfect-scrollbar.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/rainyday/rainyday.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/select2/select2-spinner.gif">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/select2/select2.css">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/select2/select2.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/select2/select2.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/select2/select2x2.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/summernote/build/summernote.css">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/ClipOnePlugins/summernote/build/summernote.min.js">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/bg.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/check.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/customs_Logo.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/delete.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/NzLogo.png">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/images/pelak.gif">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/24/2017 00:54:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/24/2017 14:42:39</publishTime>
+    </File>
+    <File Include="PoliceSite.Master">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/charts.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-calendar.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-dropzone.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-elements.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-image-cropping.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-validation.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/form-wizard.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/index.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/jquery-1.8.1.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/jquery-ui-1.9.1.custom.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/login.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/main.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/maps.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/table-data.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-buttons.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-elements.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-modals.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-nestable.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-sliders.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/ui-treeview.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/utility-coming-soon.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/utility-error404.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/ClipOneJs/webwidget_menu_dropdown.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/icheck.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/others/onlynumber.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/others/plaque.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>03/24/2017 00:54:43</publishTime>
+    </File>
+    <File Include="Service References/BillOfLadingInformation/PoliceServer.BillOfLadingInformation.BillOfLading.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/CustomsValueDeclarationInformation/PoliceServer.CustomsValueDeclarationInformation.customsValueDeclaration.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/CustomsValueDeclarationInformation/PoliceServer.CustomsValueDeclarationInformation.getCustomsValueDeclarationBySerialNumberResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetCustomsPermit/PoliceServer.GetCustomsPermit.customsPermit.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetCustomsPermit/PoliceServer.GetCustomsPermit.getCustomsPermitByCustomsPermitNumberResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetCustomsPermit/PoliceServer.GetCustomsPermit.getCustomsPermitByPlaqueResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetCustomsPermit/PoliceServer.GetCustomsPermit.getCustomsPermitsBySerialNumberResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetUrbanWarehousePermit/PoliceServer.GetUrbanWarehousePermit.getUrbanWarehousePermitByPermitNumberResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/GetUrbanWarehousePermit/PoliceServer.GetUrbanWarehousePermit.uwPate.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/ParvaneBita/PoliceServer.ParvaneBita.customsDeclaration.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/ParvaneBita/PoliceServer.ParvaneBita.getCustomsDeclarationBySerialNumberResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/PatteInfoBita/PoliceServer.PatteInfoBita.customsPermit.datasource">
+      <publishTime>07/11/2016 17:23:41</publishTime>
+    </File>
+    <File Include="Service References/PatteInfoBita/PoliceServer.PatteInfoBita.getCustomsPermitByCustomsPermitNumberResponse.datasource">
+      <publishTime>07/11/2016 17:23:41</publishTime>
+    </File>
+    <File Include="Service References/PatteInfoBita/PoliceServer.PatteInfoBita.getCustomsPermitByVehicleRegistrationPlateResponse.datasource">
+      <publishTime>07/11/2016 17:23:41</publishTime>
+    </File>
+    <File Include="Service References/StockInformation/PoliceServer.StockInformation.getStockInformationByStockIdResponse.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/StockInformation/PoliceServer.StockInformation.stock.datasource">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="Service References/StockInformation/PoliceServer.StockInformation.stockInfo.datasource">
+      <publishTime>12/20/2016 12:06:59</publishTime>
+    </File>
+    <File Include="UserControl/Plaque.ascx">
+      <publishTime>03/24/2017 00:54:44</publishTime>
+    </File>
+    <File Include="UserControl/uPermission.ascx">
+      <publishTime>08/28/2018 14:17:17</publishTime>
+    </File>
+    <File Include="Views/Account/ManageAccess.aspx">
+      <publishTime>07/23/2018 17:11:13</publishTime>
+    </File>
+    <File Include="Views/Account/ManagePassword.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/BillOfLading/ShowBillOfLading.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/ConfirmationReport/ByPasgah.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/ConfirmationReport/ByUser.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Default/Index.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Default/MessagePage.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Patte/Index.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Patte/ShowPatte.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Patte/ShowUwPate.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Patte/ShwoAllPateBySerial.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/PatteInfo/test.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/Register/RegisterPasgah.aspx">
+      <publishTime>03/24/2017 00:58:05</publishTime>
+    </File>
+    <File Include="Views/Register/RegisterUser.aspx">
+      <publishTime>08/28/2018 13:51:10</publishTime>
+    </File>
+    <File Include="Views/Service/Index.aspx">
+      <publishTime>03/24/2017 14:58:05</publishTime>
+    </File>
+    <File Include="Views/Service/PatteService.aspx">
+      <publishTime>03/24/2017 14:42:52</publishTime>
+    </File>
+    <File Include="Views/ShowParvane/Index.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/ShowParvane/ShowResult.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/ValueDeclearation/SearchValueDeclearation.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/ValueDeclearation/ShowValueDeclearation.aspx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>03/24/2017 00:54:45</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/29/2018 01:38:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
