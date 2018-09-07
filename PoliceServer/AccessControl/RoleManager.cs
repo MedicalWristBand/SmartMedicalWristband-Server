@@ -100,6 +100,9 @@ namespace PoliceServer.AccessControl
             _headerPermissions.Add(
                 new FarsiPage() {FarsiName = "منوی کاربری", Parent = HeaderType.Setting, Icon = "clip-user-5"},
                 _allRoles);
+            _headerPermissions.Add(
+                new FarsiPage() { FarsiName = "تولید بارکد", Parent = HeaderType.generateBarcode, Icon = "clip-stats" },
+                new List<Role>() { _systewAdminRole });
 
         }
 
@@ -112,6 +115,7 @@ namespace PoliceServer.AccessControl
             _pagePermissions.Add("/account/managepassword", _allRoles);
             _pagePermissions.Add("/account/manageaccess", new List<Role>(){_systewAdminRole});
             _pagePermissions.Add("/register/registeruser", new List<Role>() { _systewAdminRole });
+            _pagePermissions.Add("/generatebarcode/generatebarcode", new List<Role>() { _systewAdminRole });
 
             Log.Debug("Permission Of RoleManager Has Been Added To List");
         }

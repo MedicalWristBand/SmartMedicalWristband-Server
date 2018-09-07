@@ -41,6 +41,7 @@ namespace PoliceServer.Annotation
         Home,
         Report,
         Setting,
-        notInMenu
+        notInMenu,
+        generateBarcode
     }
 }

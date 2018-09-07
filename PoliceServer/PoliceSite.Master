@@ -158,14 +158,6 @@
                                 </a>
                                 <ul class="sub-menu" style="display: none;">
                                     <li style="list-style: none">
-                                        <a href="<%=ResolveUrl("~/Register/RegisterPasgah") %>" style="font-size: medium">
-                                            <i class="clip-circle-small"></i>
-                                            ایجاد مرکز استعلام
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="sub-menu" style="display: none;">
-                                    <li style="list-style: none">
                                         <a href="<%=ResolveUrl("~/Register/RegisterUser") %>" style="font-size: medium">
                                             <i class="clip-circle-small"></i>
                                             ایجاد کاربر جدید
@@ -188,19 +180,19 @@
                                     <i class="icon-arrow"></i>
                                     <span class="ui-accordion-header"></span>
                                 </a>
+                            </li>
+                            <li>
+                                <a href="#" style="font-size: larger">
+                                    <i class="clip-file-2"></i>
+                                    <span class="title">تولید بارکد</span>
+                                    <i class="icon-arrow"></i>
+                                    <span class="ui-accordion-header"></span>
+                                </a>
                                 <ul class="sub-menu" style="display: none;">
                                     <li style="list-style: none">
-                                        <a href="<%=ResolveUrl("~/ConfirmationReport/ByPasgah") %>" style="font-size: medium">
+                                        <a href="<%=ResolveUrl("~/generatebarcode/GenerateBarcode") %>" style="font-size: medium">
                                             <i class="clip-circle-small"></i>
-                                            گزارش عملکرد یک مرکز
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="sub-menu" style="display: none;">
-                                    <li style="list-style: none">
-                                        <a href="<%=ResolveUrl("~/ConfirmationReport/ByUser") %>" style="font-size: medium">
-                                            <i class="clip-circle-small"></i>
-                                            گزارش عملکرد یک فرد
+                                            تولید بارکد
                                         </a>
                                     </li>
                                 </ul>

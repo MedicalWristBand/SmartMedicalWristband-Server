@@ -43,7 +43,7 @@ namespace PoliceServer.Models
 
             modelBuilder.Entity<User>()
                 .HasMany(e => e.Patients)
-                .WithRequired(e => e.Dortor)
+                .WithOptional(e => e.Dortor)
                 .HasForeignKey(e => new {e.DoctorID })
                 .WillCascadeOnDelete(false);
 
